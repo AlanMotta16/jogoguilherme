@@ -244,24 +244,28 @@
       document.addEventListener("keydown",(e)=>{
         if(e.key == "a" || e.key == "A" || e.key == "ArrowLeft"){         
           if (lockesquerda == 0){
+            document.querySelector("#personagem").style.backgroundImage="url(../imagens/characterleft.png)";
         intervalesquerda = setInterval(vaipraesquerda, intervalp);
         lockesquerda = 1
       }
         }
       if (e.key == "d" || e.key == "D" || e.key == "ArrowRight"){
         if (lockdireita == 0){
+          document.querySelector("#personagem").style.backgroundImage="url(../imagens/characterright.png)";
         intervaldireita = setInterval(vaipradireita, intervalp);
         lockdireita = 1;
       }
       }
       if (e.key == "w" || e.key == "W" || e.key == "ArrowUp"){
         if (lockcima == 0){
+          document.querySelector("#personagem").style.backgroundImage="url(../imagens/characterback.png)";
         intervalcima = setInterval(vaipracima, intervalp);
         lockcima = 1;
       }
     }
     if (e.key == "s" || e.key == "S" || e.key == "ArrowDown"){
       if (lockbaixo == 0){
+        document.querySelector("#personagem").style.backgroundImage="url(../imagens/character.png)";
         intervalbaixo = setInterval(vaiprabaixo, intervalp);
         lockbaixo = 1
       }
