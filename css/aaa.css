@@ -13,10 +13,11 @@
   user-select: none;
 }
 body {
-  background-image:url(../imagens/temple.png);
+  background-image:url(../imagens/sparks.gif), url(../imagens/temple.png);
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
+  background-color:black;
 }
 #botoesiniciar{
   position:absolute;
@@ -42,8 +43,12 @@ body {
 .botao{
   width: 18vh;
   height: 10vh;
-  background-color: white;
-  color: black;
+  background-image:url(../imagens/button2.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  background-color:rgba(255, 255, 255, 0);
+  color: white;
   border: none;
   font-size: 3.5vh;
 }
@@ -111,10 +116,10 @@ body {
   display: none;
 }
 #azul {
-  color: rgb(0, 162, 232);
+  color: rgb(0, 184, 110);
 }
 #laranja {
-  color: rgb(250, 187, 14);
+  color: rgb(202, 68, 255);
 }
 
 #boasorte {
@@ -138,7 +143,7 @@ body {
   position: relative;
   border: 2px solid rgb(41, 41, 41);
   z-index: 1;
-  background-image:url(../imagens/woodfloor.jpg);
+  background-image:url(../imagens/floor.png);
   background-repeat:no-repeat;
   background-size:cover;
 }
@@ -147,7 +152,10 @@ body {
 }
 #personagem {
   position: absolute;
-  background-color: red;
+  background-image:url(../imagens/character.png);
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
   z-index: 6;
   display: none;
 }
@@ -243,14 +251,20 @@ button:hover {
   position: absolute;
   width: 3vh;
   height: 3vh;
-  background-color: white;
+  background-image:url(../imagens/bomb.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
   animation: atk1 linear 1.8s;
   z-index: 2;
 }
 #projetil2 {
   position: absolute;
   width: 3vh;
-  background-color: white;
+  background-image:url(../imagens/pipes.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
   z-index: 2;
   animation: atk2 linear 3s;
 }
@@ -262,7 +276,10 @@ button:hover {
   position: absolute;
   width: 3vh;
   height: 3vh;
-  background-color: white;
+  background-image:url(../imagens/bomb.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
   animation: atk1 linear 2.5s;
   z-index: 2;
 }
@@ -271,14 +288,20 @@ button:hover {
   position: absolute;
   width: 3vh;
   height: 3vh;
-  background-color: white;
+  background-image:url(../imagens/laser.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
   z-index: 2;
 }
 .projetil5 {
   position: absolute;
   width: 3vh;
   height: 3vh;
-  background-color: white;
+  background-image:url(../imagens/laser.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
   z-index: 2;
   animation: atk5-1 0.5s linear;
 }
@@ -286,7 +309,10 @@ button:hover {
   position: absolute;
   height: 50%;
   width: 2.5vh;
-  background-color: white;
+  background-image:url(../imagens/pipes.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
   z-index: 2;
   animation: atk6 2.5s linear;
 }
@@ -298,10 +324,16 @@ button:hover {
   z-index: 2;
 }
 #projetillaranja{
-  background-color: rgb(250, 187, 14);
+  background-image:url(../imagens/purplelaser.gif);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
 }
 #projetilazul{
-  background-color: rgb(0, 162, 232);
+  background-image:url(../imagens/greenlaser.gif);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
 }
 @keyframes atk1 {
   from {
@@ -434,6 +466,11 @@ to{
   width: 12vh;
   height: 7vh;
   font-size:2.5vh;
+  background-image:url(../imagens/button2.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:contain;
+  background-color:rgba(255, 255, 255, 0);
 }
 #recomecar{
 width:16vh;
